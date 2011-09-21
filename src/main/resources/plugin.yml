@@ -1,5 +1,5 @@
 name: Top Players
-main: com.fernferret.TopPlayers.TopPlayers
+main: com.pneumaticraft.highlander.Highlander
 authors: fernferret
 version: maven-version-number
 commands:
