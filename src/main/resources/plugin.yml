@@ -1,0 +1,8 @@
+name: Top Players
+main: com.fernferret.TopPlayers.TopPlayers
+authors: fernferret
+version: maven-version-number
+commands:
+  topp:
+    description: Generic Top Players Command
+    usage: /<command>
