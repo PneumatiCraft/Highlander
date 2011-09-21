@@ -1,8 +1,23 @@
 name: Top Players
 main: com.pneumaticraft.highlander.Highlander
-authors: fernferret
+authors: ['fernferret']
 version: maven-version-number
 commands:
-  topp:
-    description: Generic Top Players Command
+  hi:
+    description: Generic Highlander Command
+    usage: /<command>
+  hih:
+    description: Generic Highlander Command
+    usage: /<command>
+  hihelp:
+    description: Generic Highlander Command
+    usage: /<command>
+  hisearch:
+    description: Generic Highlander Command
+    usage: /<command>
+  hixp:
+    description: Displays your xp and level.
+    usage: /<command>
+  hitop:
+    description: There can be only one.
     usage: /<command>

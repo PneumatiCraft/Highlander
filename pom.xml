@@ -1,27 +1,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.pneumaticraft.topplayers</groupId>
-    <artifactId>TopPlayers</artifactId>
+    <groupId>com.pneumaticraft.highlander</groupId>
+    <artifactId>Highlander</artifactId>
     <version>0.1</version>
-    <name>Multiverse-Core</name>
-    <description>World Management Plugin</description>
+    <name>Highlander</name>
+    <description>There can be only one.</description>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.number>UNKNOWN</project.build.number>
     </properties>
-
     <repositories>
         <repository>
             <id>OnARandomBox</id>
             <url>http://repo.onarandombox.com/artifactory/repo</url>
         </repository>
-        <repository>
-            <id>GetSpout</id>
-            <url>http://repo.getspout.org/</url>
-        </repository>
     </repositories>
-
     <build>
         <defaultGoal>clean package</defaultGoal>
         <plugins>
@@ -103,13 +97,6 @@
             <scope>compile</scope>
         </dependency>
         <!-- Bukkit Dependency -->
-        <!-- Start of Spout -->
-        <dependency>
-            <groupId>org.getspout</groupId>
-            <artifactId>spoutapi</artifactId>
-            <version>dev-SNAPSHOT</version>
-        </dependency>
-        <!-- End of Spout -->
         <!-- Start of Economy Dependencies -->
         <dependency>
             <groupId>cosine.boseconomy</groupId>
@@ -118,7 +105,6 @@
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
-
         <dependency>
             <groupId>fr.crafter.tickleman.RealShop</groupId>
             <artifactId>RealShop</artifactId>
@@ -126,7 +112,6 @@
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
-
         <dependency>
             <groupId>com.iCo6</groupId>
             <artifactId>iConomy</artifactId>
@@ -134,7 +119,6 @@
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
-
         <dependency>
             <groupId>com.iConomy</groupId>
             <artifactId>iConomy</artifactId>
@@ -142,7 +126,6 @@
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
-
         <dependency>
             <groupId>com.nijiko.coelho.iConomy</groupId>
             <artifactId>iConomy</artifactId>
@@ -150,7 +133,6 @@
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
-
         <dependency>
             <groupId>com.earth2me.essentials</groupId>
             <artifactId>Essentials</artifactId>
