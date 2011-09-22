@@ -8,11 +8,6 @@ import org.bukkit.permissions.PermissionDefault;
 
 import java.util.List;
 
-/**
- * Multiverse 2
- *
- * @author fernferret
- */
 public class ShowCommand extends HighlanderCommand {
     public ShowCommand(Highlander plugin) {
         super(plugin);

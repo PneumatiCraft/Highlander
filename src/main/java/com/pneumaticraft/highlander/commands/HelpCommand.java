@@ -4,8 +4,6 @@
  * For more information please check the README.md file included              *
  * with this project.                                                         *
  ******************************************************************************/
-
-// This file is no longer licensed under that silly CC license. I have blanked it out and will start implementaiton of my own in a few days. For now there is no help.
 package com.pneumaticraft.highlander.commands;
 
 import com.pneumaticraft.commandhandler.Command;

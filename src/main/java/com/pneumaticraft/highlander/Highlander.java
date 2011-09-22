@@ -12,12 +12,12 @@ import org.bukkit.util.config.Configuration;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class Highlander extends JavaPlugin {
     private CommandHandler commandHandler;
     private HPermissions permissions;
     private Configuration config;
+    private boolean fix;
 
     @Override
     public void onEnable() {
@@ -67,5 +67,13 @@ public class Highlander extends JavaPlugin {
 
     public Configuration getConfig() {
         return this.config;
+    }
+
+    public void setFix(boolean fix) {
+        this.fix = fix;
+    }
+
+    public boolean isFixed() {
+        return this.fix;
     }
 }

@@ -7,11 +7,6 @@ import org.bukkit.permissions.PermissionDefault;
 
 import java.util.List;
 
-/**
- * Multiverse 2
- *
- * @author fernferret
- */
 public class TopCommand extends HighlanderCommand {
     public TopCommand(Highlander plugin) {
         super(plugin);
