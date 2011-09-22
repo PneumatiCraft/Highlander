@@ -1,4 +1,4 @@
-Copyright (c) 2011 Eric Stokes
+Copyright (c) 2011 Eric Stokes and Tim Ekl
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
